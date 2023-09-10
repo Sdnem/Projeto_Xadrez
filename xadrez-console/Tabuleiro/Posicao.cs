@@ -5,17 +5,17 @@ namespace tabuleiro
     {
 
         public int linha { get; set; }
-        public int colunas { get; set; }
+        public int coluna { get; set; }
 
         public Posicao(int linha, int colunas)
         {
             this.linha = linha;
-            this.colunas = colunas;
+            this.coluna = colunas;
         }
 
         public override string ToString()
         {
-            return linha + ", " + colunas;
+            return linha + ", " + coluna;
         }
     }
 }
