@@ -18,7 +18,7 @@ namespace xadrez_console
 
                 Tela.imprimirTabuleiro(tab);
             }
-            catch (tabuleiroException e){
+            catch (TabuleiroException e){
                 Console.WriteLine(e.Message);
             }
             

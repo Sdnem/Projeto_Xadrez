@@ -2,9 +2,9 @@
 
 namespace tabuleiro
 {
-    internal class tabuleiroException : Exception
+    internal class TabuleiroException : Exception
     {
-        public tabuleiroException(string msg) :base(msg) {
+        public TabuleiroException(string msg) :base(msg) {
 
         }
     }
