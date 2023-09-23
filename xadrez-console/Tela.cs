@@ -39,7 +39,6 @@ namespace xadrez_console
             imprimirConjunto(partida.pecasCapturadas(Cor.Preta));
             Console.ForegroundColor = aux;
             Console.WriteLine();
-            Console.WriteLine();
         }
 
         public static void imprimirConjunto(HashSet<Peca> conjunto)
